@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>solu | Social Media Marketing</title>
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <!-- Combined Logo + Navigation Bar -->
     <nav class="navbar">
-        <div class="nav-container">
-            <img src="images/logo.png" alt="logo" class="nav-logo">
+        <a href="/"><img src="images/logo.png" alt="Solu Logo" class="nav-logo"></a>
+        <div class="navbar-content">
             <div class="nav-links">
                 <a href="/">Home</a>
                 <a href="services.html">Services</a>
@@ -20,19 +21,93 @@
         </div>
     </nav>
 
-    <!-- Hero Section (BELOW the nav) -->
-    <header>
-        <p>vision. strategy. results.</p>
-        <button onclick="location.href='contact.html'">Get a Free Audit</button>
-    </header>
-</body>
+     <!-- Hero Section -->
+     <section class="hero">
+        <div class="hero-content">
+            <h1>Transform Your <span class="highlight">Social Presence</span></h1>
+            <p class="tagline">vision. strategy. results.</p>
+            <p>We help health, food, and e-learning businesses stand out on social media</p>
+            <div class="cta-buttons">
+                <button class="primary-btn" onclick="location.href='contact.html'">Get a Free Audit</button>
+                <button class="secondary-btn" onclick="location.href='services.html'">Our Services</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/logo.png" alt="Social media marketing" class="img-fluid">
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="stat-item">
+            <h3>100+</h3>
+            <p>Posts Created</p>
+        </div>
+        <div class="stat-item">
+            <h3>50+</h3>
+            <p>Happy Clients</p>
+        </div>
+        <div class="stat-item">
+            <h3>3x</h3>
+            <p>Average Growth</p>
+        </div>
+    </section>
+
+    <!-- Featured Services Preview -->
+    <section class="featured-services">
+        <h2>How We Can Help</h2>
+        <div class="services-preview">
+            <div class="service-preview">
+                <i class="fas fa-hashtag service-icon"></i>
+                <h3>Content Strategy</h3>
+                <p>Data-driven posts that engage your audience</p>
+            </div>
+            <div class="service-preview">
+                <i class="fas fa-chart-line service-icon"></i>
+                <h3>Performance Analytics</h3>
+                <p>Track what works and optimize accordingly</p>
+            </div>
+            <div class="service-preview">
+                <i class="fas fa-ad service-icon"></i>
+                <h3>Ad Campaigns</h3>
+                <p>Targeted promotions that convert</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section class="testimonial">
+        <blockquote>
+            "solu tripled our Instagram engagement in just two months! Their strategic approach made all the difference."
+        </blockquote>
+        <p>- Local Bakery Client</p>
+    </section>
+
     <!-- Footer -->
     <footer>
-        <div class="social-icons">
-            <a href="https://instagram.com/yourhandle" target="_blank">Instagram</a> | 
-            <a href="https://linkedin.com/company/yourhandle" target="_blank">LinkedIn</a>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="solu logo" class="footer-logo-img">
+                <p>vision. strategy. results.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="/">Home</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
         </div>
-        <p>&copy; 2024 solu. All rights reserved.</p>
+        <div class="copyright">
+            <p>&copy; 2025 solu. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>

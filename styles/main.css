@@ -82,22 +82,23 @@ header {
 }
 
 /* ===== NAVBAR WITH LOGO ===== */
+.nav-container {
+    display: flex;
+    justify-content: space-between; /* NEW: Space between logo and nav links */
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .navbar {
     background: #f8f9fa;
     padding: 1rem 2rem;
     border-bottom: 1px solid #eee;
 }
 
-.nav-container {
-    display: flex;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 .nav-logo {
-    height: 40px; /* Adjust size as needed */
-    margin-right: 2rem;
+    height: 40px;
+    width: auto;
 }
 
 .nav-links {
